@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "First_500_prime_numbers Console Application",
+  "authors": [ "xr_xa_000" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "First_500_prime_numbers": "First_500_prime_numbers"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "BenchmarkDotNet": "0.9.4"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Console": "4.0.0-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Linq.Parallel": "4.0.1-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
